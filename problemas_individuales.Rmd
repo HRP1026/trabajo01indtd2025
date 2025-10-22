@@ -1,0 +1,75 @@
+---
+title: "Problemas de Decisión bajo Incertidumbre"
+author: "Dalia Felici"
+output: pdf_document
+---
+```{r}
+source("teoriadecision_funciones_incertidumbre.R")
+```
+
+## Problema 1: 
+Aplicar los diferentes criterios de decisión bajo incertidumbre al problema representado por la siguiente matriz de valores.
+
+## a) Situación favorable
+
+|    | e1  | e2 | e3 |
+|----|-----|----|----|
+| d1 | 12  | 2  | 30 |
+| d2 |  4  | 25 | 13 |
+| d3 | 30  |  6 |  7 |
+| d4 |  8  | 12 | 11 |
+
+## b) Situación desfavorable
+|    | e1  | e2  | e3 |
+|----|-----|-----|----|
+| d1 |   3 |   1 | 20 |
+| d2 |  40 |  25 |  3 |
+| d3 |   1 |  50 |  4 |
+| d4 |  23 |   2 | 20 |
+
+
+## Problema 2: 
+Dalia ha decidido que quiere mejorar su forma física y empezar una rutina de ejercicio regular. El problema es que no sabe exactamente qué tan constante será con el deporte, y no quiere gastar más dinero del necesario si luego se aburre o tiene que dejarlo por algún imprevisto. Ha encontrado tres opciones distintas para hacer ejercicio, pero no sabe cuál es la más conveniente teniendo en cuenta que su objetivo es minimizar el gasto total a lo largo de un año.
+
+Las tres opciones que está considerando:
+
+### 1. Abono anual en un gimnasio  
+
+- Precio: 450 euros por un año completo, que se paga de una sola vez.
+
+- No existe reembolso si deja de ir.
+
+### 2. Suscripción mensual flexible 
+
+- Precio: 45 euros al mes. Se puede cancelar en cualquier momento.
+
+- Más costosa si se usa todo el año, pero más segura si Dalia no está segura de su constancia.
+
+### 3. Entrenamiento al aire libre + app de fitness gratuita
+
+- Costo inicial: unos 60 euros (ropa y accesorios).
+
+- No hay cuota mensual. Usa una app gratuita para entrenar al parque.
+
+- Si hace mal tiempo o se desmotiva, probablemente se apunte más adelante a clases de pilates con un coste estimado de 30 euros al mes, lo que aumentaría el coste anual hasta 180 euros aproximadamente.
+
+### Situaciones posibles en el futuro:
+
+- Está muy motivada y entrena regularmente durante todo el año.
+
+- Empieza bien pero después de 3 o 4 meses se cansa y deja de ir.
+
+- Es inconstante: entrena algunos meses sí, otros no.
+
+- Tiene una lesión o una situación personal que la obliga a dejar de entrenar.
+
+
+#### Matriz de costes totales estimados (en euros)
+
+| Opción                   |e1: Constante | e2: Se cansa | e3: Irregular | e4: Deja de entrenar |
+|--------------------------|---------------|---------------|----------------|------------------------|
+| d1 – Gimnasio anual      | 450 €         | 450 €         | 450 €          | 450 €                  |
+| d2 – Mensual flexible    | 540 €         | 180 €         | 270 €          | 45 €                   |
+| d3 – Aire libre + app    | 60 €          | 180 €         | 120 €          | 60 €                   |
+
+¿Qué opción de entrenamiento debería elegir Dalia para minimizar el coste total durante un año?
