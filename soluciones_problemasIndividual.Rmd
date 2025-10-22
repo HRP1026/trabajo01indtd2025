@@ -10,7 +10,8 @@ source("teoriadecision_funciones_incertidumbre.R")
 ```
 
 # Problema 1
-Aplicar los diferentes criterios de decisión bajo incertidumbre al problema representado por la siguiente matriz de valores.
+Aplicar los diferentes criterios de decisión bajo incertidumbre al problema 
+representado por la siguiente matriz de valores.
 
 ### a) Situación favorable
 Matriz de decisión
@@ -88,7 +89,8 @@ criterios <- criterio.Todos(matriz, 0.5, T)
 criterios
 ```
 
-En un escenario favorable, y considerando todos los criterios de decisión, la alternativa óptima resulta ser la d1.
+En un escenario favorable, y considerando todos los criterios de decisión, 
+la alternativa óptima resulta ser la d1.
 
 ### b) Situación desfavorable
 
@@ -164,10 +166,16 @@ criterios
 ```
 
 ## Conclusiones 
-En un escenario desfavorable, y considerando todos los criterios de decisión, la alternativa óptima resulta ser la d2.
+En un escenario desfavorable, y considerando todos los criterios de decisión, 
+la alternativa óptima resulta ser la d2.
 
 # Problema 2
-Dalia ha decidido que quiere mejorar su forma física y empezar una rutina de ejercicio regular. El problema es que no sabe exactamente qué tan constante será con el deporte, y no quiere gastar más dinero del necesario si luego se aburre o tiene que dejarlo por algún imprevisto. Ha encontrado tres opciones distintas para hacer ejercicio, pero no sabe cuál es la más conveniente teniendo en cuenta que su objetivo es minimizar el gasto total a lo largo de un año.
+Dalia ha decidido que quiere mejorar su forma física y empezar una rutina de 
+ejercicio regular. El problema es que no sabe exactamente qué tan constante 
+será con el deporte, y no quiere gastar más dinero del necesario si luego se 
+aburre o tiene que dejarlo por algún imprevisto. Ha encontrado tres opciones 
+distintas para hacer ejercicio, pero no sabe cuál es la más conveniente teniendo 
+en cuenta que su objetivo es minimizar el gasto total a lo largo de un año.
 
 Las tres opciones que está considerando:
 
@@ -189,7 +197,9 @@ Las tres opciones que está considerando:
 
 - No hay cuota mensual. Usa una app gratuita para entrenar al parque.
 
-- Si hace mal tiempo o se desmotiva, probablemente se apunte más adelante a clases de pilates con un coste estimado de 30 euros al mes, lo que aumentaría el coste anual hasta 180 euros aproximadamente.
+- Si hace mal tiempo o se desmotiva, probablemente se apunte más adelante a clases 
+de pilates con un coste estimado de 30 euros al mes, lo que aumentaría el coste 
+anual hasta 180 euros aproximadamente.
 
 ### Situaciones posibles en el futuro:
 
@@ -229,4 +239,6 @@ criterios
 
 ## Conclusiones 
 La mejor decisión para Dalia es optar por la suscripción anual al gimnasio.
-Esta alternativa es seleccionada como óptima en 5 de los 6 criterios, lo que indica que, aunque suponga un coste fijo inicial elevado, resulta ser la más estable y segura ante cualquier escenario posible.
+Esta alternativa es seleccionada como óptima en 5 de los 6 criterios, lo que 
+indica que, aunque suponga un coste fijo inicial elevado, resulta ser la más 
+estable y segura ante cualquier escenario posible.
