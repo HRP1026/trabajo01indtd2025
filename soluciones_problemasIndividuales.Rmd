@@ -82,6 +82,14 @@ criterio.PuntoIdeal(matriz, favorable = TRUE)
 
 La mejor alternativa es d1
 
+## Conclusiones
+```{r}
+criterios <- criterio.Todos(matriz, 0.5, T)
+criterios
+```
+
+En un escenario favorable, y considerando todos los criterios de decisión, la alternativa óptima resulta ser la d1.
+
 ### b) Situación desfavorable
 
 Matriz de decisión
@@ -150,6 +158,13 @@ criterio.PuntoIdeal(matriz2, favorable = F)
 
 La mejor alternativa es d1
 
+```{r}
+criterios <- criterio.Todos(matriz2, 0.5, T)
+criterios
+```
+
+## Conclusiones 
+En un escenario desfavorable, y considerando todos los criterios de decisión, la alternativa óptima resulta ser la d2.
 
 # Problema 2
 Dalia ha decidido que quiere mejorar su forma física y empezar una rutina de ejercicio regular. El problema es que no sabe exactamente qué tan constante será con el deporte, y no quiere gastar más dinero del necesario si luego se aburre o tiene que dejarlo por algún imprevisto. Ha encontrado tres opciones distintas para hacer ejercicio, pero no sabe cuál es la más conveniente teniendo en cuenta que su objetivo es minimizar el gasto total a lo largo de un año.
@@ -212,5 +227,6 @@ criterios <- criterio.Todos(matriz, 0.5, T)
 criterios
 ```
 
+## Conclusiones 
 La mejor decisión para Dalia es optar por la suscripción anual al gimnasio.
 Esta alternativa es seleccionada como óptima en 5 de los 6 criterios, lo que indica que, aunque suponga un coste fijo inicial elevado, resulta ser la más estable y segura ante cualquier escenario posible.
